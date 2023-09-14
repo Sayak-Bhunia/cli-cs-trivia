@@ -1,0 +1,25 @@
+{
+  "name": "cstrivia",
+  "version": "0.0.4",
+  "description": "A cli-app/gamegame made by Sayak Bhunia",
+  "homepage": "https://sayak-bhunia.github.io/linktree/",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "bin": "./index.js",
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "chalk": "^4.1.2",
+    "chalk-animation": "^1.6.0",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.0",
+    "inquirer": "^8.2.0",
+    "nanospinner": "^1.0.0"
+  }
+}
